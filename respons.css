@@ -1,0 +1,173 @@
+@media (min-width:400px) and (max-width: 579px) {
+    .navbar ul {
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .navbar ul li {
+        margin-left: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 1.2rem;
+    }
+
+    .home_section {
+        height: 90vh;
+    }
+
+    .home_section p {
+        font-size: 15px;
+    }
+
+    .intro {
+        font-size: 0.7rem;
+    }
+
+    .bird_box h2 {
+        font-size: 1.2rem;
+    }
+
+    .bird_name {
+        justify-content: flex-start;
+        width: 200px;
+        min-height: 224px;
+        font-size: 0.6rem;
+        padding: 0px;
+
+    }
+
+    .bird_name h3 {
+        margin: 10px;
+    }
+
+    .bird_name img {
+        width: 100%;
+        max-width: 100px;
+        height: 100px;
+    }
+    .main_container_of_life{
+        width: 60%;
+    }
+}
+@media (min-width:579px) and (max-width: 790px) {
+    .navbar ul{
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .navbar ul li a {
+        font-size: 1.4rem;
+    }
+    .intro {
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width:791px) and (max-width: 1023px) {
+    .intro {
+        font-size: 1rem;
+    }
+
+    .bird_name {
+        width: 250px;
+        min-height: 270px;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media (min-width: 360px) and (max-width: 399px) {
+
+    /* Navbar */
+    .navbar {
+        height: 70px;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .navbar ul li {
+        margin-left: 8px;
+    }
+
+    .navbar ul li a {
+        font-size: 0.9rem;
+    }
+
+    /* Home Section */
+    .home_section {
+        height: auto;
+        padding: 20px;
+        background-color: black;
+        margin-top: 72px;
+    }
+
+    .home_section h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .home_section p {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    /* Intro */
+    .intro {
+        font-size: 0.6rem;
+    }
+
+    /* Bird Section */
+    .bird_box h2 {
+        font-size: 1rem;
+    }
+
+    .bird_name {
+        width: 160px;
+        min-height: 200px;
+        font-size: 0.6rem;
+        padding: 5px;
+    }
+
+    .bird_name img {
+        max-width: 80px;
+        height: 80px;
+    }
+
+    /* Life Section */
+    .main_container_of_life {
+        width: 90%;
+    }
+
+    .main_container_of_life h1 {
+        font-size: 1rem;
+    }
+
+    .stages h2 {
+        font-size: 0.8rem;
+    }
+
+    .stages p {
+        font-size: 0.7rem;
+    }
+
+    /* Contact */
+    .contact_container {
+        width: 90%;
+    }
+
+    .form input,
+    .form textarea {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .form button {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+}
